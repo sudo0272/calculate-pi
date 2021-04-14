@@ -6,6 +6,8 @@ And the general equation to find the area of this triangle below is\
 ![triangle](./triangle.jpg)\
 ![\frac 1 2 \:  a b \: sin C](./area-of-triangle.svg)
 
+Say a and b both equal to r.
+
 Say there're many triangles which inscribe in a circle and are exactly congruent just like this:\
 ![triangle inscribing in the circle](./triangles-inscribing-in-circle.jpg)\
 
