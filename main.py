@@ -1,8 +1,15 @@
 import math
 
-limit = int(input('limit: '))
-steps = int(input('steps: '))
+n = 1
 
-for n in range(1, limit + 1, steps):
-    print(f'n = {n}, {n / 2 * math.sin(2 * math.pi / n)}')
+while True:
+    try:
+        print(f'\rn = {n}, {n / 2 * math.sin(2 * math.pi / n)}', end='')
+
+        n += 1
+
+    except KeyboardInterrupt:
+        break
+
+print()
 
