@@ -26,9 +26,7 @@ Since they're same,\
 And finally,\
 ![\pi = \lim\_{n \to \infty }\frac 1 2 \: n \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
-However, the problem of this method is that we have to use pi anyway to calculate sin(2 * pi).\
-You could say that then we can use sin(250 deg).\
-But the problem is, we have to convert degree to radian to calculate value of sin.\
+However, this method has a big problem that we have to convert degree to radian which uses pi to calculate value of sin.\
 So I tried to present sin as different expressions but I couldn't. :(\
 
 # Second method
