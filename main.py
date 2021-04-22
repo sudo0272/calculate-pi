@@ -27,11 +27,11 @@ elif method == 2:
 
     while True:
         try:
-            x = random.random() * 10 % 1
-            y = random.random() * 10 % 1
+            x = random.randint(0, 10000)
+            y = random.randint(0, 10000)
 
             # if the dot is in the circle
-            if x ** 2 + y ** 2 <= 1:
+            if x ** 2 + y ** 2 <= 100000000:
                 circleDots += 1
 
             squareDots += 1
