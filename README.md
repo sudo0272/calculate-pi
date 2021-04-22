@@ -13,18 +13,18 @@ Say there're many triangles which inscribe in a circle and are exactly congruent
 
 Say n is the amount of triangles.\
 Then, sum of the areas of the triangles is\
-![\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
+![\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
 
 When n converges to infinity, it will be the area of the circle.\
 In mathematical expression, it is\
-![\lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
+![\lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
 Since they're same,\
-![\pi r^2 = \lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20r^2%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
+![\pi r^2 = \lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20r^2%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
 And finally,\
-![\pi = \lim\_{n \to \infty }\frac 1 2 \: n \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20sin%20\frac%20{2%20\pi}%20{n})
+![\pi = \lim\_{n \to \infty }\frac 1 2 \: n \: sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
 However, the problem of this method is that we have to use pi anyway to calculate sin(2 * pi).\
 You could say that then we can use sin(250 deg).\
