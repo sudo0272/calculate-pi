@@ -13,7 +13,7 @@ Say there're many triangles which inscribe in a circle and are exactly congruent
 
 Say n is the amount of triangles.\
 Then, sum of the areas of the triangles is\
-![\frac 1 2 n r^2 sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20n%20r^2%20sin%20\frac%20{360%20^{\circ}}%20{n})\
+![\frac 1 2 n r^2 sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20n%20r^2%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
 
 When n converges to infinity, it will be the area of the circle.\
