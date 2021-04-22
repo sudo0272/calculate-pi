@@ -1,6 +1,6 @@
 # First method
 The general equation to find the area of this circle below is \
-![circle](./circle.jpg)\
+![circle](./circle.jpg)
 
 And the general equation to find the area of this triangle below is\
 ![triangle](./triangle.jpg)\
@@ -9,7 +9,7 @@ And the general equation to find the area of this triangle below is\
 Say a and b both equal to r.
 
 Say there're many triangles which inscribe in a circle and are exactly congruent just like this:\
-![triangle inscribing in the circle](./triangles-inscribing-in-circle.jpg)\
+![triangle inscribing in the circle](./triangles-inscribing-in-circle.jpg)
 
 Say n is the amount of triangles.\
 Then, sum of the areas of the triangles is\
@@ -27,7 +27,7 @@ And finally,\
 ![\pi = \lim \_{n \to \infty }\frac 1 2 n sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20n%20sin%20\frac%20{360%20^{\circ}}%20{n})\
 
 However, this method has a big problem that we have to convert degree to radian which uses pi to calculate value of sin.\
-So I tried to present sin as different expressions but I couldn't. :(\
+So I tried to present sin as different expressions but I couldn't. :(
 
 # Second method
 ![a circle inscribing in a rectangle](./circle-inscribing-in-square.jpg)\
