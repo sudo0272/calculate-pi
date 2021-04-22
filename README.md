@@ -43,7 +43,7 @@ Finally,\
 ![\pi = 4 \cdot \frac M N](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%204%20\cdot%20\frac%20M%20N)
 
 # Third method
-The Euler's Zeta function is defined as\
+The Riemann Zeta function is defined as\
 ![\zeta (s) = \sum _{n = 1} ^{\infty} {n ^ {-s}} = \sum _{n = 1} ^{\infty} \frac 1 {n ^ s}](https://latex.codecogs.com/png.image?\dpi{110}%20\zeta%20(s)%20=%20\sum%20_{n%20=%201}%20^{\infty}%20{n%20^%20{-s}}%20=%20\sum%20_{n%20=%201}%20^{\infty}%20\frac%201%20{n%20^%20s})\
 And\
 ![\zeta (2) = \frac {\pi ^ 2} 6](https://latex.codecogs.com/png.image?\dpi{110}%20\zeta%20(2)%20=%20\frac%20{\pi%20^%202}%206)\
