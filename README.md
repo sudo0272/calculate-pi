@@ -33,6 +33,7 @@ But the problem is, we have to convert degree to radian to calculate value of si
 So I tried to present sin as different expressions but I couldn't. :(\
 
 # Second method:
+![a circle inscribing in a rectangle](./circle-inscribing-in-square.jpg)
 Say there's a circle is inscribing in a square.\
 The radius of the circle is 1, so the side length of the square is 2.\
 We're going to put many many dots on the square.\
