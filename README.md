@@ -32,7 +32,7 @@ You could say that then we can use sin(250 deg).\
 But the problem is, we have to convert degree to radian to calculate value of sin.\
 So I tried to present sin as different expressions but I couldn't. :(\
 
-# Second method:
+# Second method
 ![a circle inscribing in a rectangle](./circle-inscribing-in-square.jpg)
 Say there's a circle is inscribing in a square.\
 The radius of the circle is 1, so the side length of the square is 2.\
@@ -44,4 +44,14 @@ Then,\
 ![\frac \pi 4 = \frac M N ](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%20\pi%204%20=%20\frac%20M%20N)
 Finally,\
 ![\pi = 4 \cdot \frac M N](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%204%20\cdot%20\frac%20M%20N)
+
+# Third method
+The Euler's Zeta function is defined as
+![\zeta (s) = \sum _{n = 1} ^{\infty} {n ^ {-s}} = \sum _{n = 1} ^{\infty} \frac 1 {n ^ s}](https://latex.codecogs.com/png.image?\dpi{110}%20\zeta%20(s)%20=%20\sum%20_{n%20=%201}%20^{\infty}%20{n%20^%20{-s}}%20=%20\sum%20_{n%20=%201}%20^{\infty}%20\frac%201%20{n%20^%20s})
+And\
+![\zeta (2) = \frac {\pi ^ 2} 6](https://latex.codecogs.com/png.image?\dpi{110}%20\zeta%20(2)%20=%20\frac%20{\pi%20^%202}%206)
+![6 \cdot \zeta (2) = \pi ^ 2](https://latex.codecogs.com/png.image?\dpi{110}%206%20\cdot%20\zeta%20(2)%20=%20\pi%20^%202)
+![\pi = \sqrt {6 \cdot \zeta (2)}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\sqrt%20{6%20\cdot%20\zeta%20(2)})
+Finally,\
+![\pi = \sqrt {6 \cdot \sum \_{n = 1} ^{\infty} \frac 1 {n ^ 2}}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\sqrt%20{6%20\cdot%20\sum%20_{n%20=%201}%20^{\infty}%20\frac%201%20{n%20^%202}})
 
