@@ -5,7 +5,7 @@ The general equation to find the area of this circle below is \
 
 And the general equation to find the area of this triangle below is\
 ![triangle](./triangle.jpg)\
-![\frac 1 2 \:  a b \: sin C](./area-of-triangle.svg)
+![\frac 1 2 \:  a b \: sin C](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20\:%20%20a%20b%20\:%20sin%20C)
 
 Say a and b both equal to r.
 
@@ -14,18 +14,18 @@ Say there're many triangles which inscribe in a circle and are exactly congruent
 
 Say n is the amount of triangles.\
 Then, sum of the areas of the triangles is\
-![\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](./area-of-triangles-in-circle.svg)
+![\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
 
 
 When n converges to infinity, it will be the area of the circle.\
 In mathematical expression, it is\
-![\lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](./lim-area-of-triangles-in-circle.svg)
+![\lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
 
 Since they're same,\
-![\pi r^2 = \lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](./area-of-circle-same-as-lim-area-of-triangles-in-circle.svg)
+![\pi r^2 = \lim\_{n \to \infty }\frac 1 2 \: n \: r^2 \: sin \frac {2 \pi} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20r^2%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20r^2%20\:%20sin%20\frac%20{2%20\pi}%20{n})
 
 And finally,\
-![\pi = \lim\_{n \to \infty }\frac 1 2 \: n \: sin \frac {2 \pi} {n}](./value-of-pi.svg)
+![\pi = \lim\_{n \to \infty }\frac 1 2 \: n \: sin \frac {2 \pi} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20\:%20n%20\:%20sin%20\frac%20{2%20\pi}%20{n})
 
 However, the problem of this method is that we have to use pi anyway to calculate sin(2 * pi).\
 You could say that then we can use sin(250 deg).\
