@@ -26,8 +26,13 @@ Since they're same,\
 And finally,\
 ![\pi = \lim \_{n \to \infty }\frac 1 2 n sin \frac {360 ^{\circ}} {n}](https://latex.codecogs.com/png.image?\dpi{110}%20\pi%20=%20\lim%20_{n%20\to%20\infty%20}\frac%201%202%20n%20sin%20\frac%20{360%20^{\circ}}%20{n})
 
-However, this method has a big problem that we have to convert degree to radian which uses pi to calculate value of sin.\
-So I tried to present sin as different expressions but I couldn't. :(
+However, we have to use pi in calculation of sine because python's sine method uses radians.\
+So what we should do is to use Bhaskara I's sine approximation formula.\
+It is remarkably accurate in range from 0 deg to 180 deg but not exact.\
+n converges to infinity in our formula, so degree we should calculate will converge to 0, which means we can use it.\
+
+Bhaskara I's sine approximation formula is defined as below.\
+![\sin x^\circ \approx \frac{4 x (180 - x)} {40500 - x (180 - x)}](https://latex.codecogs.com/png.image?\dpi{110}%20\sin%20x^\circ%20\approx%20\frac{4%20x%20(180%20-%20x)}%20{40500%20-%20x%20(180%20-%20x)})
 
 # Second method
 ![a circle inscribing in a rectangle](./circle-inscribing-in-square.jpg)\
