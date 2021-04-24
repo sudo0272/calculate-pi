@@ -1,6 +1,16 @@
 import decimal
+import curses
 import math
 import random
+
+def calculateError(acceptedValue, experimentalValue):
+    return abs(acceptedValue - experimentalValue) / acceptedValue * 100
+
+def printValues(values):
+    for index, value in enumerate(values):
+        stdscr.addstr(index, 0, f'{value[0]} = {value[1]} {value[2]}')
+
+    stdscr.refresh()
 
 method = int(input('Method(1 ~ 3): '))
 precision = int(input('Precision: '))
@@ -8,8 +18,11 @@ actualPi = decimal.Decimal('3.14159265358979323846264338327950288419716939937510
 
 decimal.getcontext().prec = precision
 
-def calculateError(acceptedValue, experimentalValue):
-    return abs(acceptedValue - experimentalValue) / acceptedValue * 100
+stdscr = curses.initscr()
+
+stdscr.clear()
+stdscr.refresh()
+curses.curs_set(False)
 
 if method == 1:
     # since Bhaskara I's sine approximation formula is only accurate in range from 0 to 180,
@@ -23,7 +36,7 @@ if method == 1:
             sinValue = 4 * degree * (180 - degree) / (40500 - degree * (180 - degree))
             calculatedPi = decimal.Decimal(sinValue * n / 2)
 
-            print(f'\rn = {n}, sin = {sinValue}, π = {calculatedPi}, e = {calculateError(actualPi, calculatedPi)}%', end='')
+            printValues((('n', n, ''), ('sin x', sinValue, ''), ('π', calculatedPi, ''), ('e', calculateError(actualPi, calculatedPi), '%')))
 
             n += 1
 
@@ -47,7 +60,8 @@ elif method == 2:
 
             calculatedPi = 4 * circleDots / decimal.Decimal(squareDots)
 
-            print(f'\rN = {squareDots}, M = {circleDots}, π = {calculatedPi}, e = {calculateError(actualPi, calculatedPi)}%', end='')
+            #  print(f'\rN = {squareDots}, M = {circleDots}, π = {calculatedPi}, e = {calculateError(actualPi, calculatedPi)}%', end='')
+            printValues((('N', squareDots, ''), ('M', circleDots, ''), ('π', calculatedPi, ''), ('e', calculateError(actualPi, calculatedPi), '%')))
 
         except KeyboardInterrupt:
             break
@@ -64,11 +78,13 @@ elif method == 3:
             zeta += (1 / decimal.Decimal(n ** 2))
             calculatedPi = (6 * zeta).sqrt()
 
-            print(f'\rn = {n}, ζ(2) = {zeta}, π = {calculatedPi}, e = {calculateError(actualPi, calculatedPi)}%', end='')
+            #  print(f'\rn = {n}, ζ(2) = {zeta}, π = {calculatedPi}, e = {calculateError(actualPi, calculatedPi)}%', end='')
+            printValues((('n', n, ''), ('ζ(2)', zeta, ''), ('π', calculatedPi, ''), ('e', calculateError(actualPi, calculatedPi), '%')))
 
             n += 1
 
         except KeyboardInterrupt:
             break
-print()
+
+curses.endwin()
 
